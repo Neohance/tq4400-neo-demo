@@ -659,7 +659,7 @@ var TOUR = [
 class Component extends DCLogic {
   constructor(props) {
     super(props);
-    this.state = { door: false, explode: false, mark: false, spin: false, sel: null, gl: false, sound: true, sv: '', lang: 'en', step: -1, panel: true };
+    this.state = { door: false, explode: false, mark: false, spin: false, sel: null, gl: false, sound: true, sv: '', lang: 'en', step: -1, panel: false };
     this.canvas = null; this.stage = null; this.mirror = null; this.three = null; this.sim = new Sim();
     this.scr = document.createElement('canvas'); this.scr.width = 800; this.scr.height = 480;
   }
